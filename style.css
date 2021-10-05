@@ -1,0 +1,38 @@
+.aliens{
+    height: 250px;
+    width: 300px;
+}
+
+body{
+    background-color:  pink;
+    font-family: 'Lobster', cursive;
+
+}
+
+.header_div p{
+    font-family: 'Stick No Bills', sans-serif; 
+    color: forestgreen;  
+    letter-spacing: 2px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.main_div button{
+    font-family: 'Ephesis', cursive;
+    margin-top: 30px;
+    width: 130px;
+    letter-spacing: 3px;
+    font-weight: bolder;
+}
+
+.copy_right_footer{
+    position: fixed;
+    color: goldenrod;
+    bottom: 0;
+    width: 100%;
+    font-size: 18px;
+    background-color: hotpink;
+    line-height: 3;
+    text-align: center;
+    text-shadow: indigo 5px 5px 5px ;
+}

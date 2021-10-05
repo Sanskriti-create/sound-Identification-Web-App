@@ -1,0 +1,56 @@
+
+<html>
+  <head>
+    <title>Sound Identification Web App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ephesis&display=swap" rel="stylesheet">
+
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+      <center>
+       <div class="col-xs-12 header_div text-center">
+         <h1>Sound Identification</h1>
+         <br>
+         <h4 class=" btn btn-danger">Note: Play sounds like (clap, laugh, drum) etc.. to make aliens dance</h4>
+         <br>
+         </div>
+         <div class="main_div">
+           <br>
+           <button class="btn btn-default" onclick="startClassification();"> START </button>
+           <h3 id="result_label">I can hear - </h3>
+           <h4 id="result_confidence">Accuracy - </h4>
+         <br>
+           <span>
+         <img id="alien1" class="aliens" src="aliens-01.png">
+         <img id="alien2"  class="aliens" src="aliens-02.png">
+         <img id="alien3"  class="aliens" src="aliens-03.png">
+         <img id="alien4"  class="aliens" src="aliens-04.png">
+        </span>
+</div>
+      </center>
+      <br>
+      <div class="copy_right_footer">
+        Developed by -- Sanskriti 
+      </div>
+<script src="main.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+ 
+
